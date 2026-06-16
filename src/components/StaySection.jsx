@@ -61,7 +61,8 @@ export default function StaySection() {
         style={{ gap: "32px" }}                                              // Espacio de 32px entre los hijos (título y formulario)
       >
         {/* Bloque 1: Título grande */}
-        <motion.div {...blurUp}>                                             // Aplica la animación blurUp
+        <motion.div {...blurUp}>
+          {/* Aplica la animación blurUp */}
           <div style={{
             fontFamily: "'Instrument Serif', serif",                         // Tipografía serif elegante
             fontSize: "clamp(60px, 11vw, 160px)",                            // Tamaño responsive: entre 60px y 160px, escalando con el viewport
@@ -74,7 +75,8 @@ export default function StaySection() {
             letterSpacing: "-0.01em",                                        // Espaciado entre letras ligeramente negativo (más junto)
             color: "#000"                                                    // Color negro puro
           }}>
-            Stay <span style={{ fontStyle: "italic" }}>in</span>             // "in" en cursiva para dar énfasis visual
+            {/*  "in" en cursiva para dar énfasis visual */}
+            Stay <span style={{ fontStyle: "italic" }}>in</span>
           </div>
           <div style={{
             fontFamily: "Manrope, ui-sans-serif, sans-serif",                // Tipografía sans-serif moderna
